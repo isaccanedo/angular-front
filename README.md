@@ -3,7 +3,7 @@
 Contém os scripts e arquivos voltados ao Front-End
 
 ## back-end/
-Contém os scripts e arquivos voltados ao Back-End do banco
+Contém os scripts e arquivos voltados ao Back-End
 
 ## Objetivo
 1) _Possibilitar um ambiente de aprendizado e comunicação em equipe_
