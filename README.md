@@ -5,10 +5,6 @@ Contém os scripts e arquivos voltados ao Front-End
 ## back-end/
 Contém os scripts e arquivos voltados ao Back-End
 
-## Objetivo
-1) _Possibilitar um ambiente de aprendizado e comunicação em equipe_
-3) _Colocar em prática um aplicativo (CRUD)_
-
 ## Possíveis funções no projeto como todo:
 1) O cliente deve fazer o login/cadastro;
 ### Depois do cadastro/login
