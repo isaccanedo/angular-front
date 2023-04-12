@@ -1,6 +1,6 @@
 # Divisão do repositório
 ## front-end/
-Contém os scripts e arquivos voltados ao Front-End do banco
+Contém os scripts e arquivos voltados ao Front-End
 
 ## back-end/
 Contém os scripts e arquivos voltados ao Back-End do banco
