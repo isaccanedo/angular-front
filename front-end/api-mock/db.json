@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "usuario": "joaquim",
+      "senha": "joaquim123",
+      "nome": "Joaquim da Silva",
+      "email": "joaquim@teste.com.br"
+    },
+    {
+      "id": 2,
+      "usuario": "Maria",
+      "senha": "maria123",
+      "nome": "Maria Joaquina",
+      "email": "maria@teste.com.br"
+    },
+    {
+      "id": 3,
+      "usuario": "Helena",
+      "senha": "helena123",
+      "nome": "Helena Nascimento",
+      "email": "helena@teste.com.br"
+    },
+    {
+      "nome": "felipe",
+      "email": "abc@abc",
+      "usuario": "fel",
+      "senha": "123",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<div fxLayoutAlign="center center" fxFlexFill class="main-div">
+    <mat-card fxFlex="90%">
+        <mat-toolbar color="primary">Login</mat-toolbar>
+        <form fxLayoutAlign="stretch" fxLayout="column" class="login-form" [formGroup]="loginForm" (ngSubmit)="login()">
+            <mat-form-field>
+                <input matInput formControlName="usuario" #usuarioInput placeholder="Nome do usuário" maxlength="20">
+                <mat-error *ngIf="loginForm.get('usuario')?.invalid">{{getErrorMessage('usuario')}}</mat-error>
+                <mat-hint align="end">{{usuarioInput.value?.length || 0}}/20</mat-hint>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput formControlName="senha" #senhaInput type="senha" placeholder="Senha"
+                    maxlength="20">
+                <mat-error *ngIf="loginForm.get('senha')?.invalid">{{getErrorMessage('senha')}}</mat-error>
+                <mat-hint align="end">{{senhaInput.value?.length || 0}}/20</mat-hint>
+            </mat-form-field>
+
+            <button [disabled]="loginForm.invalid" mat-raised-button type="submit" color="primary">Entrar</button>
+        </form>
+        <div class="login-form" fxLayoutAlign="stretch" fxLayout="column">
+            <mat-toolbar color="accent" class="register-toolbar">Ainda não tem conta?</mat-toolbar>
+            <button mat-raised-button color="primary" routerLink="signup">Clique aqui para se cadastrar</button>
+        </div>
+    </mat-card>
+</div>
